@@ -8,4 +8,4 @@ install:
 script:
  - gitbook build
 after_success:
- - "sh deploy.sh"
+ - sh deploy.sh

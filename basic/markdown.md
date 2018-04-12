@@ -5,7 +5,15 @@ Markdown 是一种轻量级标记语言，它用简洁的语法代替排版，�
 
 **注意：Markdown使用`#`、`+`、`*`等符号来标记， 符号后面必须跟上 至少1个 空格才有效！**
 
-## 目录
+## 工欲善其事，必先利其器
+
+MarkDown可选编辑器：
+1. Sublime text 3 (需要安装 MarkdownEditing 插件。)
+2. Visual Studio Code
+
+## MarkDown基本语法
+
+### 目录
 
 * [标题](#标题)
 * [列表](#列表)

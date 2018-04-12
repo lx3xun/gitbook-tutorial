@@ -4,12 +4,8 @@
 * [简介](README.md)
 
 ## 快速上手
-* [前言](basic/introduction.md)
-* [环境准备](basic/install.md)
-* [使用](basic/use.md)
+* [GitBook使用](basic/gitbook.md)
 * [Markdown](basic/markdown.md)
-* [文档编写](basic/document.md)
-* [持续集成](basic/building.md)
 
 ## 前端规范
 * [基本原则](front/principle.md)
@@ -22,7 +18,6 @@
 * [JavaScript](front/javascript.md)
 * [Vue](front/vue.md)
 * [ES6](front/es6-style-guide.md)
-
 
 ## 后端规范
 

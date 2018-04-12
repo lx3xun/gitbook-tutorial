@@ -1,4 +1,4 @@
-# Vue.js 组件编码规范
+# Vue.js 编码规范
 
 ## 目标
 
@@ -131,7 +131,7 @@ Vue.js 的表达式是 100% 的 Javascript表达式。这使得其功能性很�
 
 ---
 
-### 组件 props 原子化
+## 组件 props 原子化
 
 虽然 Vue.js 支持传递复杂的 JavaScript 对象通过 props 属性，但是你应该尽可能的使用原始类型的数据。尽量只使用 [JavaScript 原始类型](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)（字符串、数字、布尔值）和函数。尽量避免复杂的对象。
 
@@ -482,7 +482,7 @@ Vue.js 的组件是自定义元素，这非常适合用来作为样式的根作�
 
 使用 Vue.js 组件的过程中会创建 Vue 组件实例，这个实例是通过自定义属性配置的。为了便于其他开发者使用该组件，对于这些自定义属性即组件API应该在 `README.md` 文件中进行说明。
 
-## 为什么？
+### 为什么？
 
 * 良好的文档可以让开发者比较容易的对组件有一个整体的认识，而不用去阅读组件的源码，也更方便开发者使用。
 * 组件配置属性即组件的 API，对于组件的用户来说他们更感兴趣的是 API 而不是实现原理。
@@ -548,7 +548,7 @@ range slider 组件可通过拖动的方式来设置一个给定范围内的数�
 
 ## 对组件文件进行代码校验
 
-代码校验可以保持代码的统一性以及追踪语法错误。.vue 文件可以通过使用 `eslint-plugin-html`插件来校验代码。你可以通过 `vue-cli` 来开始你的项目，`vue-cli` 默认会开启代码校验功能。
+代码校验可以保持代码的统一性以及追踪语法错误。.vue 文件可以通过使用 `eslint`插件来校验代码。
 
 ### 为什么？
 
@@ -561,49 +561,7 @@ range slider 组件可通过拖动的方式来设置一个给定范围内的数�
 
 #### ESLint
 
-[ESLint](http://eslint.org/) 需要通过 [ESLint HTML 插件](https://github.com/BenoitZugmeyer/eslint-plugin-html#eslint-plugin-html)来抽取组件中的代码。
-
-通过 `.eslintrc` 文件来配置 ESlint，这样 IDE 可以更好的理解校验配置项：
-
-```json
-{
-  "extends": "eslint:recommended",
-  "plugins": ["html"],
-  "env": {
-    "browser": true
-  },
-  "globals": {
-    "opts": true,
-    "vue": true
-  }
-}
-```
-
-运行 ESLint
-
-```bash
-eslint src/**/*.vue
-```
-
-#### JSHint
-
-[JSHint](http://jshint.com/) 可以解析 HTML（使用 `--extra-ext`命令参数）和抽取代码（使用 `--extract=auto`命令参数）。
-
-通过 `.jshintrc` 文件来配置 ESlint，这样 IDE 可以更好的理解校验配置项。
-
-```json
-{
-  "browser": true,
-  "predef": ["opts", "vue"]
-}
-```
-
-运行 JSHint
-```bash
-jshint --config modules/.jshintrc --extra-ext=html --extract=auto modules/
-```
-
-注：JSHint 不接受 `vue` 扩展名的文件，只支持 `html`。
+具体配置可参考【开发工具】。
 
 ## 只在需要时创建组件
 

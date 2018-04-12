@@ -1,0 +1,48 @@
+{
+  "title": "规范管理",
+  "author": "ZhangXiaofeng",
+  "description": "此手册主要实现的目标：代码一致性和最佳实践。",
+  "language": "zh-hans",
+  "root": ".",
+  "plugins": [
+    "-lunr",
+    "-sharing",
+    "-search",
+    "-highlight",
+    "prism",
+    "search-plus",
+    "splitter",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "anchors",
+    "copy-code-button",
+    "alerts",
+    "theme-comscore",
+    "theme-api",
+    "github"
+  ],
+  "pluginsConfig": {
+    "theme-api": {
+      "theme": "dark"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ]
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "disqus": {
+      "shortName": "zhangxiaofeng"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy zhangxiaofeng 2018",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "github": {
+      "url": "https://github.com/zxfOliver/gitbook-tutorial"
+    }
+  }
+}

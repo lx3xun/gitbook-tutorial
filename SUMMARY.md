@@ -49,7 +49,6 @@
     * [最佳实践](client/css/practice.md)
 * [JavaScript编码规范](client/javascript.md)
 * [Vue编码规范](client/vue.md)
-* [ES6编码规范](client/es6.md)
 * [前端构建工具webpack](client/webpack.md)
 
 ## 后端规范

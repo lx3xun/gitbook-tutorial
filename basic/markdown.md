@@ -8,8 +8,12 @@ Markdown 是一种轻量级标记语言，它用简洁的语法代替排版，�
 ## 工欲善其事，必先利其器
 
 MarkDown可选编辑器：
-1. Sublime text 3 (需要安装 MarkdownEditing 插件。)
-2. Visual Studio Code
+1. [Sublime text 3](https://www.sublimetext.com/)  
+    插件：
+    1. [Package Control（插件依赖库）](https://packagecontrol.io/installation) 
+    2. MarkdownEditing
+    3. Table Editor (借助Table Editor插件可以方便的插入表格) [如何使用？](https://segmentfault.com/a/1190000007935021)
+2. [Visual Studio Code](https://code.visualstudio.com/)
 
 ## MarkDown基本语法
 

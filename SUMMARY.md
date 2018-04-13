@@ -3,7 +3,7 @@
 ## 简介
 * [简介](README.md)
 
-## 快速上手
+## 使用指南
 * [GitBook使用](basic/gitbook.md)
 * [Markdown](basic/markdown.md)
 

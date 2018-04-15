@@ -14,6 +14,7 @@ MarkDown可选编辑器：
     2. MarkdownEditing
     3. Table Editor (借助Table Editor插件可以方便的插入表格) [如何使用？](https://segmentfault.com/a/1190000007935021)
 2. [Visual Studio Code](https://code.visualstudio.com/)
+3. Gitbook Editor
 
 ## MarkDown基本语法
 

@@ -33,7 +33,7 @@ Visual Studio Code（以下简称vscode）是一个轻量且强大的代码编�
 
 插件：`Setting Sync` 可同步包含的所有扩展和完整的用户文件夹
 
-GitHub_token: `f9bd92ae5bcd197531c18daf468fcbda966a1fad`
+GitHub_token: `0e8255d8939fead300c9905b3fe8581a5ce71cf4`
 
 1. 安装 同步插件"Settings Sync"
 2. (Sync: Download  Settings) `Shift + Alt + D` 在弹窗里输入GitHub_token值，稍后即可同步完成
